@@ -1,7 +1,5 @@
 #!/bin/sh
 
-rm /etc/letsencrypt/live/yaecho.net/*
-
 certbot renew
 
 cp /etc/letsencrypt/live/yaecho.net/fullchain.pem /data/server/ssl/yaecho.net/
